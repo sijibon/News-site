@@ -5,6 +5,20 @@
                 <div class="col-md-8">
                   <!-- post-container -->
                     <div class="post-container">
+                    <?php
+                    // include "config.php";
+                    // $post_id = $_GET['id'];
+                    // $sql = "SELECT * FROM post 
+                    // LEFT JOIN category ON post.category = category_id
+                    // LEFT JOIN user ON post.author = user.user_id 
+                    // WHERE post.post_id = {$post_id}";
+                    
+                    //  $result = mysqli_query($conn, $sql) or die("Query failed");
+                    //  if(mysqli_num_rows($result) > 0){     
+                    //     while($row = mysqli_fetch_assoc($result)){
+                      
+                     ?>
+                    
                         <div class="post-content single-post">
                             <h3>Lorem ipsum dolor sit amet, consectetur</h3>
                             <div class="post-information">
@@ -26,6 +40,11 @@
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
+
+                        <?php 
+                        //      }
+                        //   }
+                        ?>
                     </div>
                     <!-- /post-container -->
                 </div>
